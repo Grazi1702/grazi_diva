@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAi DAQUI</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">Grazi Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="text-circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            
+            <div class="item active">
+                <div class="product-img">
+                    <img src="image/conjuntos-longos-conjunto-feminino-calca-pantalona-com-botoes-e-cropped-colete-botoes-p-m-g-gg-1756256261242.png" alt="Roupas de Grife">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Roupas</p>
+                    <h2 class="product-name">Conjuntos</h2>
+                    <p class="description">
+                        Renove seu guarda-roupa com versáteis conjuntos de alfaiataria, composto por um blazer estruturado e uma calça wide leg. Confeccionado em [composição do tecido, ex: 95% poliéster e 5% elastano], oferece um caimento impecável e confortável. Perfeito para o ambiente de trabalho ou eventos sociais, este conjunto na cor [cor, ex: azul marinho] transita facilmente do formal ao casual, permitindo inúmeras combinações com outras peças. Adicione um scarpin para um look clássico ou um tênis para um toque moderno.
+                    </p>
+                    <button class="btn">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="image/d523157ec7f88113519b8d57fc87ffa1-635316f49954e.webp" alt="Joias Chiques">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Jóias</p>
+                    <h2 class="product-name">Colar</h2>
+                    <p class="description">
+                        Colares elegantes e delicados, criados para realçar a beleza natural de quem o usa. Seu design harmonioso combina simplicidade e charme, tornando-o perfeito tanto para o dia a dia quanto para ocasiões especiais. Uma peça versátil que adiciona um toque de brilho e sofisticação ao visual.
+                    </p>
+                    <button class="btn">Ver mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="image/336255-800-auto.webp" alt="Sapatos Elegantes">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Sapatos</p>
+                    <h2 class="product-name">Scarpian</h2>
+                    <p class="description">
+                        Um scarpian clássico e sofisticado, com salto elegante e bico fino que alonga a silhueta. Seu design atemporal combina charme e feminilidade, perfeito para complementar looks formais ou dar um toque refinado ao visual do dia a dia.
+                    </p>
+                    <button class="btn">Ver mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+            </button>
+            <button id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
